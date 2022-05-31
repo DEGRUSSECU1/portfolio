@@ -58,10 +58,13 @@ body {
       border-bottom: 2px solid #ffbd59;
     
   }
+.container{
 
+    display: flex;
+}
 .text-profile{
+    
     border: 1px solid red;
-    display: block;
     margin: 5px;
     width: 50%;
 }
@@ -81,11 +84,10 @@ p{
 
   }
   
-  .code img{
-      display: flex;
-      position: relative;
+.code img{
+      
       width: 200px;
       border-radius: 16px;
-      float: right;
+   
      
   }
